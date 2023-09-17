@@ -1,4 +1,6 @@
 const express = require("express");
+const cors = require('cors');
+const db = require("./db");
 const app = express();
 
 app.use(cors());
@@ -28,4 +30,5 @@ app.get("/query/:id", function (req, res) {
 // 8000번으로의 요청을 듣고 있겠다는 뜻. 콜백함수엔 서버를 돌리고 나서 실행할 동작을 입력함.
 app.listen(8000, () => {
     console.log("hello, world!");
+    db.connect();
 })
