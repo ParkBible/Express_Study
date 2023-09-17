@@ -5,9 +5,9 @@ module.exports = {
         let conn;
         
         const pool = mariadb.createPool({
-            host: "192.168.242.128", 
+            host: "xxx.xxx.xxx.xxx", 
             user: "psk", 
-            password: "sky1359", 
+            password: "xxxxxx", 
             database: "board", 
             connectionLimit: 5
         });
