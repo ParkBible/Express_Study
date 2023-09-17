@@ -18,7 +18,7 @@ module.exports = {
           console.log(rows);
           // rows: [ {val: 1}, meta: ... ]
       
-        //   const res = await conn.query("INSERT INTO users value (?, ?, ?)", [0, "psk2", "sky1359"]);
+        //   const res = await conn.query("INSERT INTO users value (?, ?, ?)", [0, "psk2", "xxxxxx"]);
         //   console.log(res);
           // res: { affectedRows: 1, insertId: 1, warningStatus: 0 }
       
